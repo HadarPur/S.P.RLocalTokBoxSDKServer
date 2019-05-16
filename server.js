@@ -12,7 +12,7 @@ app.set('port', 5000);
 app.use(express.static('public'));
 
 app.get('/', function(req, res, next) {
-		opentok.createSession({mediaMode:"relayed"}, function(err, session) {
+		opentok.createSession({mediaMode:"routed"}, function(err, session) {
 				if (err) {
 					console.log(err);
 					return;
