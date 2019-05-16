@@ -1,8 +1,6 @@
 var OpenTok = require('opentok');
 var express = require('express');
-var http = require('http');
 var app = express();
-var server = http.Server(app);
 
 var apiKey = '46328822';
 var apiSecret = '1031919db407a48f966d8a2e55bc09dce0f43d95';
